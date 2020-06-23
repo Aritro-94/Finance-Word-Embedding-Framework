@@ -30,9 +30,11 @@ This Word Embedding Framework is tailor made for feature extraction from textual
 
 
 ### Glove Model:
-  GloVe is a word vector technique it is an abbreviation which stands for Global Vectors. The advantage of GloVe is that, unlike Word2vec,   GloVe does not rely just on local statistics (local context information of words), but incorporates global statistics (word co-  
-  occurrence) to obtain word vectors.
-  It efficiently leverages statistical information by training only on the non-zero elements in a word co-occurrence matrix, rather than on   the entire sparse matrix or on individual context windows in a large corpus.
+  GloVe is a word vector technique it is an abbreviation which stands for Global Vectors. The advantage of GloVe is that, unlike 
+  Word2vec,   GloVe does not rely just on local statistics (local context information of words), but incorporates global statistics
+  (word co-occurrence matrix) to obtain word vectors.
+  It efficiently leverages statistical information by training only on the non-zero elements in a word co-occurrence matrix, rather than 
+  on the entire sparse matrix or on individual context windows in a large corpus.
   
  * **Co-Occurence Matrix**:
      A co-occurrence matrix is a term-term matrix and will have unique words in rows and columns . The purpose of this matrix is to 
@@ -61,7 +63,7 @@ This Word Embedding Framework is tailor made for feature extraction from textual
 </br>
 
 ### Optimal set of Hyper-parameters for Glove model:
-  For our use-case the set of hyper-parameters turns out to be as follows.
+  For our use-case the set of optimal hyper-parameters turns out to be as follows.
    * Window=3
    * Number of dimensions=100
    * Learning rate = 0.01
