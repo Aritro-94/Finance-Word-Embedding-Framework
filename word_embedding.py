@@ -239,7 +239,7 @@ def top_list(word,percentile,embed_dic):
 
 ## returns the dictionary of words with cosine similarities below a percentile
 def bottom_list(word,percentile,embed_dic):
-    dic=cos_sim_dic(word)
+    dic=cos_sim_dic(word,embed_dic)
     words=list(dic.keys())
     arr=[]
     items=list(dic.items())
