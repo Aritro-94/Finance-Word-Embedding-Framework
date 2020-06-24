@@ -23,6 +23,7 @@ from glove import Corpus,Glove
 
 list_of_books1=["Introduction to Structured Finance","The Handbook of Financial Instruments","Accounting - ACC110016","Bodie, Kane _ Marcus - Investments","Finance - I","Finance II","Financial Accounting","McGraw.Hill.Accounting.For.Managers","George Soros - The New Paradigm for Financial Markets","Liaquat Ahamed - Lords of Finance","The Intelligent Investor","Investment Banking_ Valuation, Leveraged Buyouts, and Mergers and Acquisitions"]
 list_of_books2=["Barbarians at the Gate","Common Sense on Mutual Funds","Extraordinary Popular Delusions and the Madness of Crowds","Fundamentals of Corporate Finance","Guide to Financial Management","International corporate finance","Investment Leadership and Portfolio Management","Investment Management","Lessons in Corporate Finance","Liar's Poker","Mastering Market Timing","Mergers and acquisitions in banking and finance","Random Walk Down Wall Street","Reducing the Risk of Black Swans","Strategy, Value and Risk","The Alchemy of Finance","The Little Book of Behavioral Investing","Venture Capital and the Finance of Innovation"]
+
 list_of_books=list_of_books1+list_of_books2
 
 ## The files are being read,
@@ -259,6 +260,6 @@ pickle.dump(embed_dic,file)
 file.close()
 
 # To load the pickle file
-# file=open("/content/gdrive/My Drive/Glove Project/embedding_dictionary.txt","wb")
+# file=open("/content/gdrive/My Drive/Glove Project/embedding_dictionary.txt","rb")
 # embed_dic=pickle.load(file)
 # file.close()
